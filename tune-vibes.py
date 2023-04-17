@@ -1,9 +1,3 @@
-# Generate a source code for an app called tune-vibes that takes uploaded
-# music as input, analyzes the music features, and creates a video clip with
-# moving visuals that correspond to the music. The app should extract musical
-# features such as rhythm and melody, and use advanced techniques like
-# generative adversarial networks (GANs) for generating realistic and dynamic
-# visuals that match the music.
 
 # Import the necessary libraries
 import os
