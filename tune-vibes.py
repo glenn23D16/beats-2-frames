@@ -66,7 +66,3 @@ def create_video_clip(music_file, output_file):
     final_clip.write_videofile(output_file, codec='libx264', audio_codec='aac', temp_audiofile='temp/temp_audio.m4a', remove_temp=True, audio=music_file, threads=4)
 
 
-if __name__ == '__main__':
-    music_file = 'path/to/your/input/music/file'
-    output_file = 'path/to/your/output/video/file'
-    create_video_clip(music_file, output_file)
